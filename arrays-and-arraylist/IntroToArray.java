@@ -6,9 +6,9 @@ public class IntroToArray {
         // Declaring an Array
         int[] array = new int[4];
 
-        // Taking Input 
+        // Taking the Input 
         Scanner sc = new Scanner(System.in);
-        
+
         System.out.println("Enter 4 elements of Array: ");
         for (int i=0; i<array.length; i++)
         {
