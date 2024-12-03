@@ -6,13 +6,13 @@ public class IntroToArray {
         // Declaring an Array
         int[] array = new int[4];
 
-        // Taking the Input 
-        Scanner sc = new Scanner(System.in);
-
-        System.out.println("Enter 4 elements of Array: ");
-        for (int i=0; i<array.length; i++)
-        {
-            array[i] = sc.nextInt();
+        try (// Taking the Input 
+        Scanner sc = new Scanner(System.in)) {
+            System.out.println("Enter 4 elements of Array: ");
+            for (int i=0; i<array.length; i++)
+            {
+                array[i] = sc.nextInt();
+            }
         }
 
         // Printing contents of Array
