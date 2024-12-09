@@ -3,6 +3,7 @@ package hackerrank;
 public class StaircasePattern {
     public static void main(String[] args) {
         //Staircase pattern
+        //https://www.hackerrank.com/challenges/staircase/problem?isFullScreen=true
 
         // --#
         // -##
