@@ -1,0 +1,26 @@
+For 'For Loop' from i = 1 to i <= n
+-> T(N) --> O(N)
+
+
+For Two 'For Loop' i.e. Outerloop and Innerloop (i = 1 to i <= n and j = 1 to j <= n)
+-> T(N) --> O(N^2) | O(N*N)
+
+
+Rules if your time complexity is like polynomial:
+1. Ignore lowest order variables of equation
+2. Ignore constant
+
+
+-> n^3 > n^2 > nlogn > n > logn > (1)
+
+
+Formal Defn of Time Complexity:
+- T(N) is directly proportional function to input 
+- T(N) provides an estimation of how the running time of an algorithm increases with increase in size of n (input).
+
+- O(logN)   --> running time increases logarithmically with input size
+- O(N)      --> running time increases linearly with input size
+- O(N^2)    --> running time increases quadratically with input size
+- O(2^n)    --> running time increases exponentially with input size
+
+O -> Big O Notation -> represents worst case time complexity

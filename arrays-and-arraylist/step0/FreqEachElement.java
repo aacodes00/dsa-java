@@ -1,3 +1,4 @@
+package step0;
 public class FreqEachElement {
     public static void main(String[] args) {
         // Count frequency of each element

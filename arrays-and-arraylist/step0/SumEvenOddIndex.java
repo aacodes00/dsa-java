@@ -1,3 +1,4 @@
+package step0;
 public class SumEvenOddIndex {
     public static void main(String[] args) {
         //sum of even index and odd index in an array

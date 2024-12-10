@@ -1,3 +1,4 @@
+package step0;
 public class SumOfPairs2Arrays {
     public static void main(String[] args) {
         //Sum of pairs using two arrays

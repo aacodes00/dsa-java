@@ -1,3 +1,4 @@
+package step0;
 public class MaxSumOfPairs2Arrays {
     public static void main(String[] args) {
         //Maximum pair sum from two arrays

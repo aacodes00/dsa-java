@@ -1,3 +1,4 @@
+package step0;
 public class FirstNLastIndex {
 
     public static void main(String[] args) {

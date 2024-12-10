@@ -1,3 +1,4 @@
+package step0;
 public class SumMultiply {
     public static void main(){
         int[] arr = {10,12,14,15};

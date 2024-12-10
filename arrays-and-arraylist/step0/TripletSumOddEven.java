@@ -1,3 +1,4 @@
+package step0;
 public class TripletSumOddEven {
     public static void main(String[] args) {
         // Count of odd and even triplet sum

@@ -1,3 +1,4 @@
+package step0;
 public class SumEvenOddNum {
     public static void main(String[] args) {
         //sum of even numbers and odd numbers in a array

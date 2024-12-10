@@ -1,3 +1,4 @@
+package step0;
 public class DistinctElement {
     public static void main(String[] args) {
         //(Array element from 1 to 100) Count of distinct element

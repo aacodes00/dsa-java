@@ -1,3 +1,4 @@
+package step0;
 public class ZFormMatrix {
     public static void main(String[] args) {
         //Print the elements that forms z shape
