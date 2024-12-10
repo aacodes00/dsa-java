@@ -24,3 +24,23 @@ Formal Defn of Time Complexity:
 - O(2^n)    --> running time increases exponentially with input size
 
 O -> Big O Notation -> represents worst case time complexity
+
+
+Amortized TC:
+- Amortized complexity is used when algorithms have expensive operations that occur rarely.
+- Dynamic Array is the best example to understand Amortized Time complexity.
+
+- A dynamic array is a linear data structure that is growable and shrinkable in size upon necessity.
+- vector in C++ and ArrayList in Java and List in Python use the concept of Dynamic array in their implementation.
+
+- There arise two cases for insertion in the dynamic array:-
+1. When there exists free space in the array. -> Time complexity here is O(1).
+2. When there is no space, a new array is to be created of size double the original array, the elements in the original array are to be copied, and the new element is inserted.
+
+Time complexity here is:- 
+Creation of a new array of double the original size + Copying the elements of the original array + Insertion of the new element
+O(2N) + O(N) + O(1) = O(3N+1) -> where N is the size of the original array.
+
+Time complexity for overall operation is N×O(3N)=O(3N^2)
+Ignoring constant,
+The worst-case time complexity for N insertions is O(N^2).
