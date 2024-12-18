@@ -4,10 +4,11 @@ import java.util.Scanner;
 
 public class Challenge3 {
     public static void main(String[] args) {
+        //Challenge 3 & 4
         //https://www.hackerrank.com/challenges/insertionsort2/problem
-        //Full Insertion Sort
+        //https://www.hackerrank.com/challenges/runningtime/problem
 
-
+        //Insertion Sort
         @SuppressWarnings("resource")
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
@@ -18,6 +19,7 @@ public class Challenge3 {
             arr[i] = val;
         }
 
+        //int count = 0;
         for(int i=0; i<n-1; i++){
             int j = i+1;
 
@@ -27,6 +29,7 @@ public class Challenge3 {
                     arr[j] = arr[j-1];
                     arr[j-1] = temp;
                     j--;                    //decrease j and keep on going till the element is not placed in perfect position
+                    //count++;              // --> Challenge 4, i.e. if want to count number of shifts, add this code
                 } else {
                     break;                  //break when the element is placed in proper position
                 }
