@@ -1,4 +1,4 @@
-package step4;
+package step4.HashingBlog;
 
 public class ElementsEqual {
     public static void main(String[] args) {

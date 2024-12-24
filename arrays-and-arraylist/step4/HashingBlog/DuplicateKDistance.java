@@ -1,4 +1,4 @@
-package step4;
+package step4.HashingBlog;
 
 import java.util.HashMap;
 
