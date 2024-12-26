@@ -3,6 +3,8 @@ package step4.HashingSession;
 import java.util.HashMap;
 import java.util.Map;
 
+//https://www.youtube.com/watch?v=xvNwoz-ufXA
+
 public class HashingSes6 {
     public static void main(String[] args) {
         //Find count of number of subarrays with sum ==  k 
@@ -19,7 +21,7 @@ public class HashingSes6 {
         int count = 0;
 
         Map<Integer, Integer> prefixSumCount = new HashMap<>();
-        prefixSumCount.put(0,1);
+        prefixSumCount.put(0,1);                        //understand the why? by dry run
 
         for(int num : arr) {
             sum += num;
