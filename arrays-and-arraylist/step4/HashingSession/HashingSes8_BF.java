@@ -2,7 +2,7 @@ package step4.HashingSession;
 
 public class HashingSes8_BF {
     public static void main(String[] args) {
-        //Find count of shortest/largest subarrays with sum k in given array
+        //Find count of shortest/largest subarrays with sum k in given array --> Brute Force Approach
         int[] nums = {1,2,3,4,2,5};
         int k = 5;
 
