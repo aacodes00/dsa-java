@@ -18,14 +18,14 @@ public class HashingSes11_BF {
             // Find the minimum, maximum, and second maximum            
             for(int i=0; i<n; i++){
                 if(arr[i] < min){
-                    min = arr[i];
+                    min = arr[i];                               // taking minimum element
                 }
 
                 if(arr[i] > max){
-                    secondMax = max;
-                    max = arr[i];
-                } else if (arr[i] > secondMax && arr[i] < max){
-                    secondMax = arr[i];
+                    secondMax = max;                            // when we get element > than max, we store curMax in secondMax
+                    max = arr[i];                               // max
+                } else if (arr[i] > secondMax && arr[i] < max){ // for condn where the element is smaller than max, but greater than curSecondMax.
+                    secondMax = arr[i];                         // secondMax
                 }
             }
 
@@ -47,7 +47,7 @@ public class HashingSes11_BF {
             for(int i=0; i<n; i++){
                 if(arr[i] == max){
                     arr[i] = secondMax;
-                    steps++;    //counting every step we're replacing
+                    steps++;    // counting every step we're replacing
                 }
             }
             
